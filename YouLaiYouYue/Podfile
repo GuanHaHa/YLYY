@@ -1,0 +1,24 @@
+project ‘YouLaiYouYue.xcodeproj'
+
+# Uncomment this line to define a global platform for your project
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'YouLaiYouYue' do
+platform :ios, '9.0'
+    pod 'SDCycleScrollView'     
+    pod 'MJRefresh'             
+    pod 'FDFullscreenPopGesture'           # Navigation
+    pod 'YYCategories'          
+    pod 'MBProgressHUD'        
+    pod 'Masonry'                                         # Masonry 自动布局框架
+    pod 'AFNetworking'
+    pod 'PureLayout'                        # 自动布局
+    pod 'Base64nl'
+    pod 'NIMSDK_LITE'
+    pod 'Toast'
+    pod 'SVProgressHUD'
+    pod 'M80AttributedLabel'
+    pod 'TZImagePickerController' , '~> 3.0.9'
+    
+end
